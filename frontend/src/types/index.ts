@@ -1,6 +1,6 @@
 export interface WordNode {
   id: string; word: string; language: string; meaning: string
-  family: string; era?: string; x?: number; y?: number
+  family: string; era?: string; rootId?: string; x?: number; y?: number
 }
 export interface WordLink {
   source: string; target: string
